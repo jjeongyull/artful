@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.css-cfd5wn-MuiListItem-root{
+  padding-bottom: 4px !important;
+  padding-top: 4px !important;
+}
+.flex-box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flex-box-item{
+  width: 100%;
+}
+.his-title{
+  font-size: 1.4rem;
+  letter-spacing: 1.8px;
+  display: flex;
+  gap: 7px;
+  align-items: baseline;
+  font-weight: 700;
+}
+.his-title span{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 720px) {
+  .flex-box{
+    flex-direction: column;
+  }
+}
