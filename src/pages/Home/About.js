@@ -80,9 +80,9 @@ export default function About() {
     <h2 className="ak-h2">오시는 길</h2>
     <div className="ak-contact-info">
       <div className="ak-contact-card">
-        <p className="ak-body"><strong>주소</strong> 서울특별시 강남구 테헤란로 123, 3층</p>
-        <p className="ak-body"><strong>지하철</strong> 2호선 강남역 3번 출구 도보 5분</p>
-        <p className="ak-body"><strong>전화</strong> 02-1234-5678</p>
+        <p className="ak-body"><strong>주소</strong> 경기도 안양시 동안구 학의로 44 204호 아트풀미술교습소</p>
+        {/* <p className="ak-body"><strong>지하철</strong> 2호선 강남역 3번 출구 도보 5분</p> */}
+        <p className="ak-body"><strong>전화</strong> 0507-1369-3038</p>
         
       </div>
     </div>
